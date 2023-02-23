@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Alex Rea">
+<meta name="description" content="Week 6 JS Calc">
+<title>Week 6 | JS Calc</title>
+</head>
+
+<body>
+   <script>
+        var rate = Number(prompt(`Enter hourly rate: `))
+        var hours = Number(prompt(`Enter hours worked: `))
+        var tax = 0.2
+        var gross = (rate * hours) * 2
+        var taxTot = gross * tax
+        var net = gross - taxTot
+        console.log(`Gross Pay: $${gross.toFixed(2)}`)
+        console.log(`Uncle Sam's Share: $${taxTot.toFixed(2)}`)
+        console.log(`Net Pay: $${net.toFixed(2)}`)
+        alert(`Gross Pay: $${gross.toFixed(2)} Uncle Sam's Share: $${taxTot.toFixed(2)} Net Pay: $${net.toFixed(2)}`)
+   </script>
+
+</body>
+</html>
