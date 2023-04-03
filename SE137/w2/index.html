@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Alex Rea">
+    <meta name="Description" content="W2 Bio Page Assignment">
+    <title>W2 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Alex Rea</h1>
+    <header id="header"></header>
+    <!--Nav Section-->
+    <div id="nav">
+        <a href="#bio">Bio</a>
+        <a href="#ed">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#footer">Bottom of Page</a>
+    </div>
+    <div id ="main">
+        <!--Bio Section-->
+        <div id="bio" class="content">
+            <h2>My Bio</h2>
+            <img src="images/download (1).png" alt="Me and my girlfriend">
+            <p>My name is <i>Alex Rea</i>, and I was born on November 16th 2003. I am 19 years old, some hobbies that I enjoy are video games, hanging out with friends, and hanging out with my girlfriend. Currently I'm enrolled in the Software Engineering program here at New England Institute of Technology. I also currently work as a pizza delivery guy, and have previously worked as a line cook at <em>Chick Fil A</em></p>
+        </div>
+        <!--Education Section-->
+        <div id="ed" class="content">
+            <h2>Schooling</h2>
+            <ul>
+                <li><strong>Warwick Veterans Memorial Middle School</strong></li>
+                <li><bold>Acellus Academy</bold></li>
+                <li><b href="https://www.neit.edu/">New England Institute of Technology</b></li>
+            </ul>
+        </div>
+        <!--Hobbies Section-->
+        <div id="hobbies" class="content">
+            <h2>Hobbies</h2>
+            <ol>
+                <li>Video Games</li>
+                <li>T.V. Shows</li>
+                <li>Hanging out with my girlfriend</li>
+            </ol>
+            <img src="images/download.png" alt="My Favorite Video Game">
+        </div>
+    </div id="main">
+    <div id="footer">
+        <p>©2023 Alex Rea | W1 Assignment</p>
+        <a href="#header">Back to Top</a>
+    </div>    
+    <script>
+        var a = document.querySelectorAll(`#nav a`);
+
+        for(let i=0; i<a.length; i++)
+        {
+            a[i].addEventListener(`click`, function(e){
+                e.preventDefault();
+                
+                var div = document.querySelectorAll(`.content`);
+
+                for(let i=0; i<div.length; i++)
+                {
+                    div[i].classList.add(`hide`);  
+                }
+                
+                div[i].classList.remove(`hide`);
+
+            })
+        }
+    </script>
+</body>
+</html>

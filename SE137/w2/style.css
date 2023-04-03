@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Condensed&display=swap');
+
+.hide{
+    display:none;
+}
+body{
+    background-color: lightgrey;
+ }
+a:link, a:visited, a:active{
+    color:darkblue;
+}
+a:hover{
+    color:cyan;
+}
+h1, h2, img{
+    border:3px solid teal;
+    background: grey;
+    font: Roboto Condensed
+}
