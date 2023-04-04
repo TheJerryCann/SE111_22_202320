@@ -8,16 +8,24 @@
     display:none;
 }
 body{
-    background-color: lightgrey;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 50%, rgba(45,185,253,1) 100%);
  }
 a:link, a:visited, a:active{
-    color:darkblue;
+    color: darkred;
 }
 a:hover{
     color:cyan;
 }
 h1, h2, img{
-    border:3px solid teal;
-    background: grey;
-    font: Roboto Condensed
+    border:3px solid darkblue;
+    background: paleturquoise;
+    font-family: "Roboto Condensed";
+    text-align: center;
+}
+p,li{
+    font-family: Alkatra; 
+}
+#nav, #footer{
+    text-align: center;
 }
