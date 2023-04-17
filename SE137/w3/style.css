@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Condensed&display=swap');
+
+.hide{
+    display:none;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'head head head head head head'
+    'bio bio bio schooling schooling schooling'
+    'bio bio bio schooling schooling schooling'
+    'bio bio bio hobbies hobbies hobbies'
+    'bio bio bio hobbies hobbies hobbies'
+    'footer footer footer footer footer footer';
+}
+.item1 {
+    grid-area: head;
+    text-align: center;
+    background-color: rgb(87,17,19);;
+}
+.item2 {
+    grid-area: bio;
+    text-align: center;
+    height: 800px;
+}
+.item3 {
+    grid-area: schooling;
+    text-align: center;
+}
+.item4 {
+   grid-area: hobbies;
+   text-align: center;
+   background-image:url(images/download.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   border:5px solid rgb(78,99,108);
+}
+.item5 {
+    grid-area: footer;
+    text-align: center;
+    background-color: rgb(87,17,19);
+    height: 100px
+}
+body{
+    background: rgb(27,27,27);
+ }
+p,li{
+    color: rgb(234,234,234);
+    text-align: center;
+    margin-inline: 300px;
+    font-family: Alkatra; 
+}
+h1,h2{
+    color: rgb(204,204,204);
+    text-align: center;
+    font-family: "Roboto Condensed";
+}
+img{
+    width: 400px;
+    border: 5px solid rgb(78,99,108);
+}
+h1{
+    margin-inline: 800px;
+    background-color: rgb(78,99,108);
+    font-size: 50px;
+}
+h2{
+    margin-inline: 350px;
+    background-color: rgb(78,99,108);
+    font-size: 40px;
+}
+.bug{
+    background-color: rgb(78,99,108);
+}
