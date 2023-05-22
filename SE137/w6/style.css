@@ -40,7 +40,7 @@ aside{
 }
 footer{
     padding:10px;
-    background-color: crimson;
+    background-color: #0254A0;
 }
 #editor{
     width:100%;
@@ -49,10 +49,14 @@ footer{
 }
 nav a{
     display:flex;
-    width:100px;
-    height:25px;
-    background-color:cyan;
+    width: 173px;
+    height: 34px;
+    background-color:#373737;
     float:left;
+    text-decoration: none;
+}
+nav a:active{
+    background-color: #161616;
 }
 textarea{
     width:100%;
@@ -154,6 +158,7 @@ h1{
 	height: 13px;
     margin-top: 825px;
 }
+a{color: #E3E3E3;}
 a:hover{
     color: #FFFFFF;
 }
@@ -183,18 +188,60 @@ a:hover{
 	height: 13px;
 }
 .mainFile{
+    background: url('images/sprites.png') no-repeat -313px -121px;
+    width: 13px;
+    height: 16px;
+    list-style: none;
+    margin-left: 25px;
+    margin-top: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-
-    color: #FFFFFF;
+    padding-left: 20px;
+    color: #E3E3E3;
     text-decoration: none;
-    align-self: center;
 }
-.moreFiles{
-    background: url('images/sprites.png') no-repeat -313px -123px;
-	width: 12px;
-	height: 8px;
+.mainFile:hover{
+    background: url('images/sprites.png') no-repeat -313px -310px;
+	width: 13px;
+	height: 16px;
+    color: #FFFFFF
+}
+.os{       
+    background: url('images/sprites.png') no-repeat -313px -121px;
+    width: 13px;
+    height: 16px;
+    list-style: none;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 20px;
+    color: #E3E3E3;
+    text-decoration: none;
+}
+.os:hover{
+    background: url('images/sprites.png') no-repeat -313px -310px;
+	width: 13px;
+	height: 16px;
+    color: #FFFFFF
+}
+ul#files li{
+    list-style-image: url('images/paper.png');
+    color: #E3E3E3;
+}
+ul#files li:hover{
+    color: #FFFFFF;
+}
+ul#stuff li{
+    list-style-image: url('images/fire.png');
+    color: #E3E3E3;
+}
+ul#stuff li:hover{
+    color:#FFFFFF
 }
