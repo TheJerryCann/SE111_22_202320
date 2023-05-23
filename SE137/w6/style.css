@@ -70,7 +70,8 @@ textarea{
     
 }
 p{
-    background-color:#666;
+    background-color: rgba(22, 22, 22, 1);
+    color: rgba(194, 194, 194, 1);
     margin:0;
 }
 
@@ -244,4 +245,12 @@ ul#stuff li{
 }
 ul#stuff li:hover{
     color:#FFFFFF
+}
+tab{
+    background: url('images/sprites.png') no-repeat -170px -121px;
+	width: 11px;
+	height: 12px;
+}
+b{
+    color: rgba(0, 88, 169, 1);
 }
