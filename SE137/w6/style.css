@@ -28,6 +28,7 @@ header{
 section{
     display:flex;
     height:100%;
+    background-color: #060606;
 }
 
 aside{
@@ -246,11 +247,7 @@ ul#stuff li{
 ul#stuff li:hover{
     color:#FFFFFF
 }
-tab{
-    background: url('images/sprites.png') no-repeat -170px -121px;
-	width: 11px;
-	height: 12px;
-}
+
 b{
     color: rgba(0, 88, 169, 1);
 }
