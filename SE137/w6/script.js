@@ -18,9 +18,9 @@ function selectTab(e)
 {
     for(let i=0; i<tabs.length; i++)
     {
-        tabs[i].style.backgroundColor =`crimson`;
+        tabs[i].style.backgroundColor =`#373737`;
     }
-    e.target.style.backgroundColor=`yellow`;
+    e.target.style.backgroundColor=`#161616`;
     p.innerHTML =  `<a href=#>Words</a> >> 
                     <a href=#>Words</a> >>
                     <a href=#>Words</a> >>
