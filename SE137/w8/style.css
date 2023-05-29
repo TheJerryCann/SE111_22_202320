@@ -1,10 +1,18 @@
 table tr td{
     border: 1px solid black;
 }
+#elements{
+    display: flex;
+    flex-direction: row;
+}
+img.box{
+    margin: 5px
+}
 @media screen and (max-width: 1920px) and (min-width: 1001px){
     img.box{
         height: 135px;
         width: 135px;
+
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 501px){
@@ -21,8 +29,12 @@ table tr td{
 }
 #nav{
     background-color: aqua;
+    display: flex;
+    justify-content: space-between;
 }
 #footer{
     background-color: aqua;
-    
+    display: flex;
+    justify-content: center;
+    margin-top: 425px;
 }
